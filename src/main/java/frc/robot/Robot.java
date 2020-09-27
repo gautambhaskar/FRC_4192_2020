@@ -16,7 +16,11 @@ import edu.wpi.first.wpilibj2.command.CommandScheduler;
  * functions corresponding to each mode, as described in the TimedRobot
  * documentation. If you change the name of this class or the package after
  * creating this project, you must also update the build.gradle file in the
+<<<<<<< HEAD
  * project.
+=======
+ * project. comment changed
+>>>>>>> abb15f17e85887ef38910a860ff1e017111b544e
  */
 public class Robot extends TimedRobot
 {
@@ -29,8 +33,12 @@ public class Robot extends TimedRobot
    * for any initialization code.
    */
   @Override
+<<<<<<< HEAD
   public void robotInit()
   {
+=======
+  public void robotInit() {
+>>>>>>> abb15f17e85887ef38910a860ff1e017111b544e
     // Instantiate our RobotContainer. This will perform all our button bindings,
     // and put our
     // autonomous chooser on the dashboard.
@@ -47,8 +55,12 @@ public class Robot extends TimedRobot
    * and SmartDashboard integrated updating.
    */
   @Override
+<<<<<<< HEAD
   public void robotPeriodic()
   {
+=======
+  public void robotPeriodic() {
+>>>>>>> abb15f17e85887ef38910a860ff1e017111b544e
     // Runs the Scheduler. This is responsible for polling buttons, adding
     // newly-scheduled
     // commands, running already-scheduled commands, removing finished or
